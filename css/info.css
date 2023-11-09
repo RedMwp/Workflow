@@ -1,0 +1,92 @@
+
+.more-info-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0 2%;
+    border-top: 1px solid #171717;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.more-info{
+    width: 100%;
+    position:absolute;
+    left: 0;
+    top:89%;
+    background: #252525;
+}
+.more-info-buttons{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+}
+.more-info-buttons button{
+    background: none;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+.more-info-buttons .dot{
+    position: relative;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: .2em 1em;
+    text-align: center;
+    width: 60px;
+    color:#171717;
+    font-weight: 700;
+}
+.more-info-buttons .dot i{
+}
+.info{
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+.info-head{
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1em;
+    position: relative;
+}
+.action-card{
+    display: flex;
+    align-items: center;
+        border-top: 1px solid rgba(100%, 100%, 100%, 0.3);
+    border-bottom: 1px solid rgba(100%, 100%, 100%, 0.3);
+    padding: .2em 1em;
+    justify-content: flex-end;
+    opacity: .7;
+}
+.action-card .time{
+    margin-right:10px;
+}
+.action-card button{
+    background: none;
+    font-weight: 900;
+    color: gray;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.info-body{
+    padding: 1.3em 1em;
+    padding-bottom: 55px;
+}
+.back{
+    position: absolute;
+    top:2px;
+    right: 2px;
+    background: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    font-weight: 900;
+    padding: .2em 1em;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0px;
+}
